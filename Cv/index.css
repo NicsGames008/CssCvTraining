@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #494949;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #141414;
+}
+
+.header {    
+    background-image: linear-gradient(to right, #8a2387, #f27121);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.box {
+    background-color: #888888;
+    padding: 2.5em;
+    position: relative;
+
+    color: white;
+
+    box-shadow: 0 40px 0 -20px #8a2387,
+                0 80px 0 -40px #e94057,
+                0 120px 0 -60px #f27121;
+}
+
+.profileimg{
+    max-width: 25%;
+    height: auto;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;   
+}
+
+h2 {
+    
+    background-image: linear-gradient(to right, #8a2387, #f27121);
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+a.button {
+    text-align: center;
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.1em 0.1em 0;
+    border: 0.16em solid rgba(255,255,255,255, 0);
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align: center;
+    transition:  all 0.2s;
+}
+a.button:hover{
+    border-color: rgba(255,255,255,1);
+}
+@media all and(max-wisth: 30em){
+    a.button{
+        display: block;
+        margin: 0.2em auto;
+    }
+}
